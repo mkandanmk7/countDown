@@ -5,13 +5,15 @@
 #container {
   display: flex;
   align-items: center;
+
   justify-content: center;
   height: 100vh;
-  border: 2px solid Green;
+  /* border: 2px solid Green; */
   background-color: rgb(99, 176, 179);
 }
 
 .count {
+
   width: 400px;
   height: 200px;
   border: 1px solid #3f3d3f;
@@ -19,21 +21,19 @@
   border-radius: 5px;
   display: flex;
   align-items: center;
- 
+  overflow: hidden;
+
   justify-content: center;
   font-style: bold;
   text-align: center;
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  box-shadow: 1px 5px 10px;
+  box-shadow: 5px 5px 10px;
   background-color: rgb(113, 231, 44);
   transition: 0.5s ease-in;
   transform: 0.3s ease-out;
 }
-/* .indepent {
-    font-size:2rem;
-  width: 200px;
-} */
+
 .count:hover {
   transform: scale(1.1);
   cursor: pointer;
